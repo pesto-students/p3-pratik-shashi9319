@@ -1,0 +1,57 @@
+.menu-bar{
+  position: absolute;
+  text-align: center;
+  width: 30px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px; 
+
+}
+.menu-item{
+  margin-top: 50px;
+  width: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.box1{
+  display: flex;
+  flex-direction: row;
+
+}
+.bottom-box{
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  
+}
+.bottom-img{
+  height: 100px;
+  width: 100px;
+}
+.song-name{
+  color: rgb(255, 251, 251);
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.bottom-icons{
+  color: white;
+  margin-left: 30px;
+  size: 100px;
+}
