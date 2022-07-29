@@ -14,4 +14,4 @@ function sort(array) {
   }
   console.log(array);
 }
-//https://leetcode.com/problems/sort-colors/submissions/
+//https://leetcode.com/submissions/detail/759905332/

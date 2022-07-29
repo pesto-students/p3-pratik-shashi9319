@@ -10,4 +10,4 @@ function maxSubArray(nums) {
 let arr = [4, -1, 2, 1];
 maxSubArray(arr);
 
-//https://leetcode.com/problems/maximum-subarray/submissions/
+//https://leetcode.com/submissions/detail/759546230/

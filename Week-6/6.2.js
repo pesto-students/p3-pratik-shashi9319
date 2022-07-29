@@ -40,4 +40,4 @@ var spiralOrder = function (matrix) {
   return result;
 };
 
-//https://leetcode.com/problems/spiral-matrix/submissions/
+//https://leetcode.com/submissions/detail/759912574/
