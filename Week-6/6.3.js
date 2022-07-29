@@ -4,7 +4,7 @@ function sort(array) {
   let i = 1;
   while (i < n - 1) {
     for (let index = 0; index < n; index++) {
-      if (array[index] < array[index + 1]) {
+      if (array[index + 1] < array[index]) {
         temp = array[index + 1];
         array[index + 1] = array[index];
         array[index] = temp;
@@ -14,3 +14,4 @@ function sort(array) {
   }
   console.log(array);
 }
+//https://leetcode.com/problems/sort-colors/submissions/

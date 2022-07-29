@@ -2,7 +2,7 @@ var spiralOrder = function (matrix) {
   const result = [];
   let top = 0;
   let left = 0;
-  let right = matrix[0].lenght - 1;
+  let right = matrix[0].length - 1;
   let bottom = matrix.length - 1;
   let direction = "right";
 
@@ -39,3 +39,5 @@ var spiralOrder = function (matrix) {
 
   return result;
 };
+
+//https://leetcode.com/problems/spiral-matrix/submissions/
