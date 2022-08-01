@@ -1,0 +1,87 @@
+<!doctype html>
+<head>
+  <title>Transition </title>
+  <style>     
+    
+    .app1{
+      height: 150px;
+      width: 150px;
+      background-color: aqua;
+      transition: transform 2s;
+      transform-origin: top left;
+    }
+    .app2{
+      height: 150px;
+      width: 150px;
+      background-color: lightblue;
+      transition: transform 2s;
+      transform-origin: top right;
+    }
+    .app3{
+      height: 150px;
+      width: 150px;
+      background-color: lightcoral;
+      transition: transform 2s;
+      transform-origin: bottom left;
+    }
+    .app4{
+      height: 150px;
+      width: 150px;
+      background-color: lightpink;
+      transition: transform 2s;
+      transform-origin: bottom right;
+      
+
+    }
+    .square{
+      display: flex;
+      flex-wrap: wrap;
+      height: 300px;
+      width: 300px;
+      margin:auto;
+      background-color: transparent;
+      z-index: 100;
+      opacity: 0;
+
+    }
+    .square:hover>.app1{
+      transform: rotate(90deg);
+            
+    }
+    .square:hover>.app2{
+      transform: rotate(-90deg);
+           
+    }
+    .square:hover>.app3{
+      transform: rotate(-90deg);
+           
+    }
+    
+    .square:hover > .app4{
+      transform: rotate(90deg);
+            
+    }
+    .text-hi{
+      position: absolute;
+      
+      text-align: center;
+      padding: 20px;
+    }
+    
+
+  </style> 
+</head>
+<html>
+
+  <body>
+    <div class="square">
+      <h2 class="text-hi">Hello</h2>
+      
+    <div class="app1">app1 1</div>
+    <div class="app2">app1 2</div>
+    <div class="app3">app1 3</div>
+    <div class="app4">app1 4</div>
+    
+    </div>
+  </body>
+</html>
