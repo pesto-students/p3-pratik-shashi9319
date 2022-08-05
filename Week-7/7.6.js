@@ -1,3 +1,4 @@
+//https://leetcode.com/submissions/detail/765957108/
 class MyQueue {
   constructor() {
     this.pushStack = [];
