@@ -8,7 +8,7 @@ class MyQueue {
     this.pushStack.push(val);
   }
   pop() {
-    if (!this.popStack.lenght) {
+    if (!this.popStack.length) {
       while (this.pushStack.length) {
         this.popStack.push(this.pushStack.pop());
       }
@@ -16,8 +16,8 @@ class MyQueue {
     return this.popStack.pop();
   }
   peek() {
-    if (!this.pushStack.lenght) {
-      while (this.pushStack.lenght) {
+    if (!this.popStack.length) {
+      while (this.pushStack.length) {
         this.popStack.push(this.pushStack.pop());
       }
     }
